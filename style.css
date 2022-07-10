@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	line-height: 1.5;
 }
 ol, ul {
 	list-style: none;
@@ -54,6 +54,13 @@ table {
 
 .skills {
 	background-color: #415165;
+	margin-bottom: 64px;
+	padding-top: 24px;
+	padding-bottom: 40px;
+}
+
+.skills li:not(:last-child) {
+	margin-bottom: 8px;
 }
 
 .contact {
@@ -72,32 +79,65 @@ h1 {
 	margin-bottom: 24px;
 }
 
+header img {
+	margin-bottom: 48px;
+}
+
 img {
 	vertical-align: bottom;
-	margin-bottom: 48px;
+}
+
+.skills h2,
+.contact h2 {
+	color: #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+	margin-bottom: 24px;
+}
+
+.skills span,
+.contact span {
+	color: #FFFFFF
 }
 
 h2 {
 	font-size: 32px;
 	line-height: 48px;
 	font-weight: 500;
+	padding-bottom: 8px;
+	margin-bottom: 16px;
+}
+
+header h2,
+.work h2 {
 	border-bottom: 1px solid #000000;
 }
 
-span {
+header span,
+.work span {
 	color: #A00404;
+}
+
+span {
 	font-size: 24px;
 	line-height: 36px;
 	margin-left: 16px;
-	vertical-align: 6px;
+	vertical-align: 5px;
 	font-weight: 600;
 }
 
-ul {
+.profile, .education {
 	margin-bottom: 64px;
 }
 
-li {
+.profile li:first-child {
+	margin-bottom: 24px;
+}
+
+.education li:first-child {
+	margin-bottom: 16px;
+}
+
+.work li:not(:last-child) {
 	margin-bottom: 24px;
 }
 
@@ -107,7 +147,56 @@ p {
 	font-weight: 300;
 }
 
-.sub-container {
-	width: 996px;
-	margin: 0 auto
+h3 {
+	font-size: 24px;
+	line-height: 36px;
+	font-weight: 500;
+}
+
+.skills > div,
+.contact > div {
+	width: 992px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.skills ul {
+	width: 200px;
+	margin: 0 auto;
+	padding-left: 24px;
+	border-left: 1px solid #FFFFFF;
+}
+
+.skills p,
+.contact p {
+	color: #FFFFFF;
+}
+
+.work {
+	margin-bottom: 80px;
+}
+
+.work ul {
+	padding-left: 24px;
+	border-left: 1px solid #96A9C4;
+	margin-left: 24px;
+}
+
+.work p {
+	width: 642px;
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 300;
+}
+
+.contact {
+	padding-bottom: 40px;
+}
+
+.contact li:not(:last-child) {
+	margin-bottom: 16px;
+}
+
+.contact a {
+	margin-right: 24px;
 }
