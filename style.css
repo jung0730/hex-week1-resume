@@ -68,7 +68,7 @@ table {
 }
 
 .info {
-	margin-top: 40px;
+	padding-top: 40px;
 	margin-bottom: 48px;
 	border-bottom: 2px solid #000000;
 }
@@ -91,6 +91,13 @@ img {
 .contact h2 {
 	color: #FFFFFF;
 	border-bottom: 1px solid #FFFFFF;
+}
+
+.skills h2 {
+	margin-bottom: 40px;
+}
+
+.contact h2 {
 	margin-bottom: 24px;
 }
 
@@ -190,6 +197,7 @@ h3 {
 }
 
 .contact {
+	padding-top: 24px;
 	padding-bottom: 40px;
 }
 
