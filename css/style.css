@@ -29,6 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
 	line-height: 1.5;
 }
 ol, ul {
@@ -60,14 +61,12 @@ img {
 
 h2 {
 	font-size: 32px;
-	line-height: 48px;
 	font-weight: 500;
 	padding-bottom: 8px;
 }
 
 span {
 	font-size: 24px;
-	line-height: 36px;
 	margin-left: 16px;
 	vertical-align: 5px;
 	font-weight: 600;
@@ -79,13 +78,17 @@ p, a {
 
 h3 {
 	font-size: 24px;
-	line-height: 36px;
 	font-weight: 500;
 }
 
 .container {
 	width: 1200px;
 	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
 }
 
 /* header */
@@ -125,9 +128,8 @@ h3 {
 	color: #A00404;
 }
 
-.header p, .skills p, .contact a {
+.header p, .skills p, .contact li {
 	font-size: 24px;
-	line-height: 36px;
 }
 
 /* skills */
@@ -136,6 +138,7 @@ h3 {
 	margin-bottom: 64px;
 	padding-top: 24px;
 	padding-bottom: 40px;
+	text-align: center;
 }
 
 .skills li:not(:last-child) {
@@ -157,21 +160,14 @@ h3 {
 	border-bottom: 1px solid #FFFFFF;
 }
 
-.skills > div,
-.contact > div {
-	width: 992px;
-	margin: 0 auto;
-	text-align: center;
-}
-
 .skills ul {
-	width: 200px;
-	margin: 0 auto;
+	display: inline-block;
+	text-align: left;
 	padding-left: 24px;
 	border-left: 1px solid #FFFFFF;
 }
 
-.skills p, .contact a {
+.skills p, .contact li {
 	color: #FFFFFF;
 }
 
@@ -189,7 +185,6 @@ h3 {
 .work p {
 	width: 642px;
 	font-size: 20px;
-	line-height: 30px;
 }
 
 /* contact */
@@ -197,6 +192,7 @@ h3 {
 	background-color: #415165;
 	padding-top: 24px;
 	padding-bottom: 40px;
+	text-align: center;
 }
 
 .contact h2 {
